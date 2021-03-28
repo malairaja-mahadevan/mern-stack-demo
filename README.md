@@ -26,3 +26,6 @@ Rest APIs created using Express Js and MangoDB
 Please create your own noSQL database and replace DB_CONNECTION in app.js with your connection string to connect
 Create your own schema and model. Refer models/Phone.js
 Create your own API routes to do the CRUD operations with your DB. Refer routes/test.js
+
+Application looks like below
+![image](https://user-images.githubusercontent.com/37778244/112744819-4c5a6100-8f71-11eb-8546-da4cb54f0fb9.png)
