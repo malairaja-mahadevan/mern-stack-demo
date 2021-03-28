@@ -74,7 +74,7 @@ function App() {
     return (
       <form onSubmit={(e) => handleSubmit(e)}>
         <div className="mb-3 row">
-          <label htmlFor="inputName" class="col-sm-2 col-form-label">Name</label>
+          <label htmlFor="inputName" className="col-sm-2 col-form-label">Name</label>
           <div className="col-sm-10">
             <input type="text" className="form-control" id="inputName" required />
           </div>
@@ -95,10 +95,10 @@ function App() {
   const renderPhoneDetails = () => {
     return phones?.map((item, index)=>(
       <div key={index} style={{flex: `0 1 24%`}}>
-        <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="25%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
+        <svg className="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="25%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text></svg>
         <div className="card-body">
-          <h5 class="card-title">{item.name}</h5>
-          <p class="card-text">{item.description}</p>
+          <h5 className="card-title">{item.name}</h5>
+          <p className="card-text">{item.description}</p>
         </div>
       </div>
     ))
